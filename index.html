@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <!-- Columna Izquierda: Menú -->
+        <aside class="columna-izquierda">
+            <div class="menu">
+                <h2>Menú</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#acerca">Acerca de</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="info-usuario">
+                <h3>Información</h3>
+                <p>Bienvenido a mi primera página web en GitHub.</p>
+            </div>
+        </aside>
+
+        <!-- Columna Central: Contenido Principal -->
+        <main class="columna-central">
+            <header class="encabezado">
+                <h1>Mi Primera Página Web</h1>
+                <p>Creada con HTML, CSS y JavaScript moderno</p>
+            </header>
+
+            <section id="inicio">
+                <h2>Inicio</h2>
+                <p>Esta es una página web básica con tres columnas. La columna izquierda contiene el menú, esta sección es el contenido principal, y la derecha tiene información adicional.</p>
+            </section>
+
+            <section id="acerca">
+                <h2>Acerca de</h2>
+                <p>Estoy aprendiendo a crear páginas web usando HTML, CSS y JavaScript. Esta es mi primera experiencia con GitHub Pages.</p>
+            </section>
+
+            <section id="servicios">
+                <h2>Servicios</h2>
+                <ul>
+                    <li>Diseño web responsivo</li>
+                    <li>Desarrollo frontend</li>
+                    <li>Interfaces interactivas</li>
+                </ul>
+            </section>
+        </main>
+
+        <!-- Columna Derecha: Sidebar -->
+        <aside class="columna-derecha">
+            <div class="widget">
+                <h3>Reloj</h3>
+                <div id="reloj" class="reloj">00:00:00</div>
+            </div>
+
+            <div class="widget">
+                <h3>Estadísticas</h3>
+                <p>Visitas: <span id="contador">0</span></p>
+            </div>
+
+            <div class="widget">
+                <h3>Tema</h3>
+                <button id="btn-tema">🌙 Modo Oscuro</button>
+            </div>
+
+            <div class="widget">
+                <h3>Recursos</h3>
+                <ul>
+                    <li><a href="https://html.spec.whatwg.org/" target="_blank">HTML5</a></li>
+                    <li><a href="https://www.w3.org/Style/CSS/" target="_blank">CSS3</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
